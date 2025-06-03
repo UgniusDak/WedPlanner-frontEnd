@@ -46,6 +46,7 @@ export default function RegisteredList() {
       try {
         const users = await fetchRegisteredUsers();
         setRegisteredUsers(users);
+        console.log(users);
       } catch (error) {
         console.log(error);
       }
