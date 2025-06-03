@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import MainPage from "./Pages/MainPage/MainPage";
-import RegistrationForm from "./Pages/RegistrationForm/RegistrationForm";
-import RegisteredList from "./Pages/RegisteredList/RegisteredList";
+import MainPage from "./Pages/MainPage/MainPage.tsx";
+import RegistrationForm from "./Pages/RegistrationForm/RegistrationForm.tsx";
+import RegisteredList from "./Pages/RegisteredList/RegisteredList.tsx";
 
 function App() {
   return (
